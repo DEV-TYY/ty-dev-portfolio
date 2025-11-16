@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksuonty=self.webpackChunksuonty||[]).push([[424],{424:function(e,s,n){n.r(s);var t=n(184);s.default=function(){return(0,t.jsx)("div",{className:"contact",children:(0,t.jsx)("p",{children:"\xa9 Copyright 2022, GRUVVE. All Rights Reserved."})})}}}]);
+//# sourceMappingURL=424.ad8b0df4.chunk.js.map
