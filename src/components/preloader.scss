@@ -6,79 +6,49 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .load {
-        width: 70%;
-        animation: fadeInUp 1s ease forwards, fadeOutUp 1s ease forwards 4s;
-        #lo {
-            // animation: fill 0.5s ease forwards 3.5s;
-            #roar {
-                #roar-one {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-two {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 0.2s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-three {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 0.4s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-four {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 0.6s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-five {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 0.8s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-six {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 1s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-seven {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 1.2s, fill 0.5s ease forwards 3.5s;
-                }
-                #roar-eight {
-                    stroke-dasharray: 785;
-                    stroke-dashoffset: 785;
-                    animation: line-anim 1.5s ease forwards 1.2s, fill 0.5s ease forwards 3.5s;
-                }
-            }
-        }
+.loader {
+    position: relative;
+    cursor: default;
+    -webkit-box-reflect:below -25px linear-gradient(transparent,
+    #0005);
+}
+
+.loader span {
+    position: relative;
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 3em;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff9;
+    text-transform: uppercase;
+    font-weight: 800;
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.15s * var(--i));
+}
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+        color: transparent;
+        text-shadow: none;
     }
-    .preload {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        // animation: fadeInUp 10s ease forwards;
-        @media (min-width: 480px) and (max-width: 759px) {
-            background-size: contain;
-        }
-        @media (max-width: 479px) {
-            background-size: contain;
-        }
-        .loader {
-            width: 70vw !important;
-        }
-        .progress {
-            width: 70vw !important;
-            color: #14e956 !important;
-            display: flex !important;
-            justify-content: center !important;
-            align-items: center !important;
-        }
+
+    20% {
+        transform: translateY(-60px);
+        color: #14e956;
+        text-shadow: 
+            0 0 5px #14e956,
+            0 0 25px #14e956,
+            0 0 50px #14e956;
     }
+
+    40%, 100% {
+        transform: translateY(0px);
+        color: transparent;
+        text-shadow: none;
+    }
+}
+
+
 }
 
 

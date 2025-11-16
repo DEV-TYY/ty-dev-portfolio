@@ -146,7 +146,7 @@ function Home() {
             <div className="home-intro hidden">
                 <div className="content">
                 <div className="content-tertiary">
-                    <p><span>✌🏻</span> Hi there! I'm Onyedika</p>
+                    <p><span>✌🏻</span> Hi there! I'm Suon Ty</p>
                 </div>
                 <div className="content-primary">
                     <h1>a <span>Frontend Engineer</span>. I help startups <span>launch</span> and <span>grow</span> their products</h1>
@@ -830,7 +830,7 @@ function Home() {
                 </div>
                 <div className="box-content">
                 <div className="box-icon"><AngularImg className="icon" /></div>
-                <div className="box-text"><p>Angular</p></div>
+                <div className="box-text"><p>Laravel</p></div>
                 </div>
                 <div className="box-content">
                 <div className="box-icon"><NodeImg className="icon" /></div>
