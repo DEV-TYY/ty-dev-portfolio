@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/ty-dev-portfolio/static/css/main.cb831b8f.css",
-    "main.js": "/ty-dev-portfolio/static/js/main.e3b67e98.js",
-    "static/css/876.bc550d15.chunk.css": "/ty-dev-portfolio/static/css/876.bc550d15.chunk.css",
-    "static/js/876.076938df.chunk.js": "/ty-dev-portfolio/static/js/876.076938df.chunk.js",
+    "main.js": "/ty-dev-portfolio/static/js/main.07f48857.js",
+    "static/css/18.f3a838f6.chunk.css": "/ty-dev-portfolio/static/css/18.f3a838f6.chunk.css",
+    "static/js/18.348b80f7.chunk.js": "/ty-dev-portfolio/static/js/18.348b80f7.chunk.js",
     "static/js/510.f68bf474.chunk.js": "/ty-dev-portfolio/static/js/510.f68bf474.chunk.js",
     "static/css/576.a0283d14.chunk.css": "/ty-dev-portfolio/static/css/576.a0283d14.chunk.css",
     "static/js/576.4bf7da13.chunk.js": "/ty-dev-portfolio/static/js/576.4bf7da13.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/index.svg": "/ty-dev-portfolio/static/media/index.89d3119228d600788910.svg",
     "static/media/chhuon-golf-resort.jpg": "/ty-dev-portfolio/static/media/chhuon-golf-resort.c50993e6829504c69fd6.jpg",
     "static/media/quote.png": "/ty-dev-portfolio/static/media/quote.c952ddc0c1361baa3c77.png",
+    "static/media/hero.jpg": "/ty-dev-portfolio/static/media/hero.eea17a65e7cf3746af35.jpg",
     "static/media/ExoSpace.ttf": "/ty-dev-portfolio/static/media/ExoSpace.606b1a1e5fed2c8afb24.ttf",
     "static/media/Cyborg.ttf": "/ty-dev-portfolio/static/media/Cyborg.074aa61276a2a2f121a4.ttf",
     "static/media/arrowClick.svg": "/ty-dev-portfolio/static/media/arrowClick.7219a884818048edacbe.svg",
@@ -23,7 +24,6 @@
     "static/media/cursorDark.svg": "/ty-dev-portfolio/static/media/cursorDark.16f95bca515c98d879e1c52a7af3e59e.svg",
     "static/media/react.svg": "/ty-dev-portfolio/static/media/react.d780129053f32e5924a5d24c78629068.svg",
     "static/media/node.svg": "/ty-dev-portfolio/static/media/node.ca7bedb8d7482ce171785a5d5c2e0ea1.svg",
-    "static/media/logo.svg": "/ty-dev-portfolio/static/media/logo.7eb7df78c9c3f0b293b578bb70239387.svg",
     "static/media/arrowPoint.svg": "/ty-dev-portfolio/static/media/arrowPoint.5b3f3b5c07736388f143.svg",
     "static/media/mongo.svg": "/ty-dev-portfolio/static/media/mongo.a3597b6922af4f13c1c3840be7719280.svg",
     "static/media/javascript.svg": "/ty-dev-portfolio/static/media/javascript.cc5904e0648f7deddb168374cb305fd1.svg",
@@ -37,9 +37,9 @@
     "static/media/solidity.svg": "/ty-dev-portfolio/static/media/solidity.22665bcc96c49adb2da218bd13221598.svg",
     "static/media/figma.svg": "/ty-dev-portfolio/static/media/figma.999bbc25fa1e968ee770cd7ca76e03d2.svg",
     "main.cb831b8f.css.map": "/ty-dev-portfolio/static/css/main.cb831b8f.css.map",
-    "main.e3b67e98.js.map": "/ty-dev-portfolio/static/js/main.e3b67e98.js.map",
-    "876.bc550d15.chunk.css.map": "/ty-dev-portfolio/static/css/876.bc550d15.chunk.css.map",
-    "876.076938df.chunk.js.map": "/ty-dev-portfolio/static/js/876.076938df.chunk.js.map",
+    "main.07f48857.js.map": "/ty-dev-portfolio/static/js/main.07f48857.js.map",
+    "18.f3a838f6.chunk.css.map": "/ty-dev-portfolio/static/css/18.f3a838f6.chunk.css.map",
+    "18.348b80f7.chunk.js.map": "/ty-dev-portfolio/static/js/18.348b80f7.chunk.js.map",
     "510.f68bf474.chunk.js.map": "/ty-dev-portfolio/static/js/510.f68bf474.chunk.js.map",
     "576.a0283d14.chunk.css.map": "/ty-dev-portfolio/static/css/576.a0283d14.chunk.css.map",
     "576.4bf7da13.chunk.js.map": "/ty-dev-portfolio/static/js/576.4bf7da13.chunk.js.map",
@@ -48,6 +48,6 @@
   },
   "entrypoints": [
     "static/css/main.cb831b8f.css",
-    "static/js/main.e3b67e98.js"
+    "static/js/main.07f48857.js"
   ]
 }
