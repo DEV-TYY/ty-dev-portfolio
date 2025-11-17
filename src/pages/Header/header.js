@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
-import logo from '../../assets/images/logo.svg';
 import './header.style.js';
 import './header.scss';
 
@@ -84,13 +83,6 @@ function Header() {
 
     return (
         <div className="header">
-            <div className="logo" onClick={nav}>
-            <object data={logo} type="image/svg+xml" title="Logo" alt="Logo">
-        <p>No SVG support, here's a substitute</p>
-        <img src={logo} alt="Logo" />
-      </object>
-            </div>
-
             <div className="menu-toggle">
             <input type="checkbox" className="nav__checkbox" id="nav-toggle" checked={checked} onChange={e => setChecked(e.target.checked)} />
             <label htmlFor="nav-toggle" className="nav__button">
